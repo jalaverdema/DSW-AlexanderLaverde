@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Aprendizaje de Etiquetas semánticas y CSS Grid</h1>
+    </header>
+    <hr>
+        <nav>
+            <ul class="nav">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Temas</a>
+                    <ul>
+                        <li><a href="">Tema 1</a></li>
+                        <li><a href="">Tema 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Recursos Digitales</a>
+                    <ul>
+                        <li><a href="">Recurso 1</a></li>
+                        <li><a href="">Recurso 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Aprendizaje</a>
+                    <ul>
+                        <li><a href="">Actividad 1</a></li>
+                        <li><a href="">Actividad 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acerca de</a>
+                    <ul>
+                        <li><a href="">Autor</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    <section>
+        <h2>Propósito del sitio</h2>
+        <p>Con la nueva versión de HTML5 se añaden etiquetas para añadir valor semántico y estructural a la programación de una página Web.<br> 
+            <h4>Etiquetas semánticas</h4><br>
+            Las distintas partes de una página en su forma de diseño se distribuye en una cabecera, pie de página, navegación. etc. HTML5 facilita su diagramación de distribución con el uso de etiquetas para cada sección. <br>
+            <h4>CSS Grid</h4><br>
+            El CSS Grid se usa en función del diseño, para lograr muchos diseños que el cliente y el programador puede realizar en el desarrollo de la página Web, permitiendo alinear elementos en columnas y filas, sin usar tablas. Es muy útil para los elementos secundarios de un contenedor de cuadrícula en donde se podrán posicionar para que se solapen y se superpongan.
+        </p>
+        <hr>
+        <article>
+            <h1>Etiquetas semánticas</h1>
+            <p>Las etiquetas semanticas nacen debido a las divisiones estandar de las paginas web que siempre se repiten. En HTML5 se añaden las divisiones con significado para estructurar con facilidad. En la versión anterior de HTML el programador realizaba las divisiones con la etiqueta <strong>div</strong> etiquetando las partes de la pagina con un ID.
+            <br>   
+            <div style="text-align: center;"><img src="images\etiqueta_semantica.PNG" alt="Imagen con diseño estandar de las divisiones"></div> 
+            <h3>Las etiquetas semanticas mas importantes son:</h3>  
+                <dl><ul><strong>header</strong> La cabecera de la pagina o seccion, puede haber mas de una en la pagina.</ul></dl><br>
+                <dl><ul><strong>footer</strong> El pie de pagina donde tiene datos como el nombre del autor, copyright, terminos de uso, contacto entre otros.</ul></dl><br>
+                <dl><ul><strong>nav</strong> Se definen los enlaces de navegacion del sitio web.</ul></dl><br>
+                <dl><ul><strong>section</strong>  Se define una seccion del documento. Representa a una sección genérica de una pagina. Agrupa contenidos que tienen una relación temática entre si.</ul></dl><br>
+                <dl><ul><strong>article</strong> Se incluye el contenido independiente que se distribuye de forma lubre en el documento, ejemplo: un foro, noticias, comentarios, blogs, etc.</ul></dl><br>
+                <dl><ul><strong>aside</strong> Sección de una pagina que contiene contenido relacionado tangencialmente al de su alrededor. Por lo general se utilizan como barras laterales.</ul></dl><br>
+                <dl><ul><strong>figure</strong> Define un elemento independiente como una imagen, fragmento de codigo, entre otros. Este elemento debe estar relacionado con el elemento que lo contiene, o el de mas alto nivel. pero cuya posicion es independiente del mismo. </ul></dl><br>
+                <dl><ul><strong>figcaption</strong> Es donde se contiene el titulo o leyenda del elemento y se coloca como primer y ultimo elemento. </ul></dl><br>
+                <dl><ul><strong>details</strong> Son los detalles adiicionales de la pagina que el programador puede ocultar. </ul></dl><br>
+                <br>
+                <br>
+                Referencia Bibliografica<br>
+                <em>Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. p. 52 a 142. https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494</em></p>
+            </p>
+            <hr>
+            <h1>Grid CSS</h1>
+            <p>El Grid en el formato de estilo CSS facilita el diseño y la distribución de elementos a lo largo de una pagina Web. El sistema grid define una cuadrícula determinada, y modificando los nombres de las clases de los elementos HTML, podemos darle tamaño, posición o colocación.</p>
+            <br>
+            <p>Grid CSS nace de esa necesidad, y recoge las ventajas de ese sistema, añadiendole numerosas mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea.</p>
+            <br>
+            <p>Los conceptos usados en el sistema Grid constan:</p>
+            <br>
+            <div style="text-align: center;"><img src="images/grid_css.PNG" alt="Imagen ilustrativa de las grillas"></div>
+            <dl><ul><strong>Contenedor: </strong> El elemento padre contenedor que definirá la cuadrícula o rejilla.</ul></dl><br>
+            <dl><ul><strong>Ítem: </strong>Cada uno de los hijos que contiene la cuadrícula (elemento contenedor).</ul></dl><br>
+            <dl><ul><strong>Celda (grid cell): </strong>Unidad mínima de la cuadrícula.</ul></dl><br>
+            <dl><ul><strong>Área (grid area): </strong>Región o conjunto de celdas de la cuadrícula.</ul></dl><br>
+            <dl><ul><strong>Banda (grid track): </strong>Banda horizontal o vertical de celdas de la cuadrícula.</ul></dl><br>
+            <dl><ul><strong>Línea (grid line): </strong>Separador horizontal o vertical de las celdas de la cuadrícula.</ul></dl><br>
+            <p>Una cuadricula se usa y muestra conteniendola en la propiedad Display y se valora de la siguiente manera para influir en su comportamiento en el contenido exterior:</p>
+            <dl><ul><strong>inline-grid: </strong>Establece una cuadrícula con ítems en línea, de forma equivalente a inline-block. Permite que la cuadrícula aparezca encima/debajo del contenido exterior</ul></dl><br>
+            <dl><ul><strong>grid:</strong>Establece una cuadrícula con ítems en bloque, de forma equivalente a block. Permite que la cuadrícula aparezca a la izquierda/derecha (en línea) del contenido exterior</ul></dl><br>
+            <p>La cuadricula puede contener determinadas filas y columnas, se definen con la propiedad grid-template-columns y grid-template-rows, que dimensiona cada celda. En el codigo se define de la forma:</p>
+            <pre><code>
+                .grid {
+                    display: grid;
+                    grid-template-columns: 50px 300px; /* definicion de 2 columnas */
+                    grid-template-rows: 200px 75px;  /* definicion de 2 filas */
+                  }
+            </code></pre>
+            <p>El valor del ancho se puede determinar tambien por unidad de fracción restante que quiere decir fracción de espacio restante en el grid(fr), por porcentaje o en auto.</p>
+            <h3>Definición de áreas</h3>
+            <p>En HTML se define las etiquetas sistemicas como por ejemplo:</p>
+            <pre><code>
+                div class="grid"
+                div class="header">Header /div
+                div class="sidebar">Sidebar /div
+                div class="content">Content /div
+                div class="footer">Footer /div
+                /div
+            </code></pre>
+           <p>En CSS se define una estructura definida, se define una estructura de lineas para el grid (ejemplo x para columnas; y para filas), tambien se puede usar cualquier nombre identificador. En el codigo CSS se definen los nombres entre corchetes</p>
+          <pre><code>
+            .grid {
+                display: grid;
+                grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+                grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];
+              }
+           </code></pre>
+           <p>Por ultimo se define cada etiqueta sistematica en el grupo de bloques que se quieran ocupar. Para ello utilizaremos las propiedades grid-column-start, grid-column-end y grid-row-start, grid-row-end. Un ejemplo de este codigo seria:</p>
+           <pre><code>
+            .header {
+                background: darkred;
+                grid-column-start: x0;
+                grid-column-end: x3;
+              
+              .content {
+                background: orange;
+                grid-column: x1 / x3;
+                grid-row: y1 / y3;
+           </code></pre>
+           <h1>Mockup de la página principal </h1>
+           <div style="text-align: center;"><img src="images/mockup.PNG" alt="Imagen con el diseño preliminar de la pagina Design"></div>
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <address>
+           Alexander Laverde  - jalaverdema@unadvirtual.edu.co
+          </address>
+        <p>Skype:  <a href="">alexander.laverde2</a></p>
+        <p>Fecha de Actualización: 10 de septiembre de 2022</p>
+        <p><center>Copyright &copy; 2022</center></p>
+    </footer>
+</body>
+</html>
