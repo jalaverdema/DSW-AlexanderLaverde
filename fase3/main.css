@@ -47,6 +47,7 @@ header .logo a {
 	padding: 20px;
 	flex: 1 1 70%;
 	font-family: sans-serif;
+	float: left;
 }
 
 .main article {
@@ -141,9 +142,9 @@ aside{
 
 aside .twitter{
 	background: #dfaf86;
-	/*height: 99%;*/ 
-	/*margin: 10px;*/
-	float: none;
+	height: 99%;
+	margin: 10px
+	
 }
 
 .videos{
