@@ -141,8 +141,9 @@ aside{
 
 aside .twitter{
 	background: #dfaf86;
-	height: 99%; 
-	margin: 10px;
+	/*height: 99%;*/ 
+	/*margin: 10px;*/
+	float: none;
 }
 
 .videos{
