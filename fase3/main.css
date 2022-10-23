@@ -135,6 +135,7 @@ aside{
 	flex-wrap: nowrap;
 	justify-content: center /*flex-start*/;
 	flex-direction: column;
+	float: right;
 
 
 }
