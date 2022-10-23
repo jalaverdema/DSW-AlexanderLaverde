@@ -133,16 +133,17 @@ aside{
 	flex: 1 1 20%; /*relacion 20%*/
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center /*flex-start*/;
 	flex-direction: column;
 
 
 }
 
-aside .twitter-timeline{
+aside .twitter{
 	background: #dfaf86;
 	height: 99%; 
 	margin: 10px;
+	flex-direction: column;
 
 	
 }
